@@ -1,0 +1,206 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechX</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ee10f98edd.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Welcome to<br> Tech<span>X</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Creativity runs in the core of our organisation which inspires us to provide innovative solutions.
+                         We are a highly regarded company whose process-driven approach to developing rich customer experiences helps clients get into market faster and expand more effectively. 
+                         We are committed to simplicity and passionate about crafting clear, engaging and effective communications. Dedication to design excellence whilst reducing complexity and expressing meaningful ideas to their visual essence is of priority. Our success is driven by expert knowledge of colour theory and artisan graphic design and typography influences.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Our Mission')">Our Mission</p>
+                            <p class="tab-links" onclick="opentab('Vision')">Vision</p>
+                            <p class="tab-links"onclick="opentab('Philosophy')">Philosophy  </p>
+                         </div>
+                         <div class="tab-contents active-tab" id="Our Mission">
+                            <ul>
+                                <li>Tech<span>X</span> aims to offer the highest levels of quality and service to companies and organisations wishing to be at the cutting edge of Internet design and functionality, and to utilise these qualities to facilitate maximum Internet exposure and presence to our clients.</li>
+                            </ul>
+                         </div>
+                            <div class="tab-contents" id="Vision">
+                            <ul>
+                                <li>To put Zimbabwean website developers and designers on the map for pristine world wide web design presentation.</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Philosophy">
+                            <ul>
+                                <li>Our processes are simple. This design strategy enables us to partner with our customers in creating their masterpiece.</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- --------services------------ -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Web Development</h2>
+            <p>It is essential to create an amazing browsing experience on a website as the main intention will be to attract potential customers. Our websites are multi-device compatible with clean animations to best present your ideas.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h2>App Development</h2>
+            <p>Our experienced team of expert mobile app developers will design, build and publish your mobile app or management software. Our Digital marketing team will help with Search engine optimization which will increase your online visibility on Google search.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-chart-line"></i>
+            <h2>Digital Marketing</h2>
+            <p>Our online presence will be uninterrupted if you choose to host your website with us. Our server environment is world-class.</p>
+            <a href="#">Learn more</a>
+        </div>
+        </div>
+    </div>
+  </div>
+  <!-- ----------------Portfolio---------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.png">
+                <div class="layer">
+                    <h3>School Platform App</h3>
+                    <p>Keep Track of School Updates</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Business Website</h3>
+                    <p>Responsive web design</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div><div class="work">
+                <img src="images/work 3.png">
+                <div class="layer">
+                    <h3>E-commerce</h3>
+                    <p>Faster response to buyer/market demands.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+       <a href="#"class="btn">See More</a>  
+    </div>
+  </div>
+  <!-- -------------Contact-------------- -->
+  <div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p><i class="fa-solid fa-envelope"></i> webdesigner.zw@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> +263 779 601 652</p>
+            <div class="Social-icons">
+              <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="https://www.instagram.com/" ><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://zw.linkedin.com/" ><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.whatsapp.com/" ><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="Submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright @ TechX.</p>
+    </div>
+  </div>
+
+    <script>
+
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+       }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    } 
+    function closemenu(){
+        sidemenu.style.right = "-300px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfuaCH1mEXMr_v_YLwB158Gnel-LXdNv_FTYnEHX3xk6k9JFgQvl2aA3vumQZrMW-5Jg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!!"
+           setTimeout(function(){
+            msg.innerHTML = ""
+           },5000)
+           form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
